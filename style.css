@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400; /* Вы можете добавить разные веса: 300, 500, 700 и т.д. */
+  src: url("/fonts/Inter-Regular.woff2") format("woff2"),
+    url("/fonts/Inter-Regular.woff") format("woff"),
+    url("/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+.shower {
+  color: #fff;
+}
+
+.shower .list {
+  background-color: #191919;
+}
+
+.slide .shout {
+  font-size: 85px;
+}
+
+.slide h2,
+p,
+a,
+b,
+strong,
+ul,
+li,
+table,
+tr,
+th {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+
+.progress::before {
+  background-color: #fff;
+}
+
+.zvuk-logo {
+  position: absolute;
+  left: 10px;
+  bottom: 25px;
+  box-sizing: border-box;
+  width: 80px;
+  height: 27px;
+  background-image: url(images/zvuk_logo.svg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+/* Support Classes */
+.double-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-image {
+  width: 200px; /* Задаем ширину контейнера */
+  height: 200px; /* Задаем высоту контейнера */
+  overflow: hidden; /* Обрезаем все, что выходит за пределы контейнера */
+  border-radius: 50%; /* Делаем контейнер круглым */
+}
+
+.circle-image img {
+  width: 100%; /* Масштабируем изображение по ширине контейнера */
+  height: 100%; /* Масштабируем изображение по высоте контейнера */
+  object-fit: cover; /* Сохраняем пропорции изображения, заполняя контейнер */
+}
