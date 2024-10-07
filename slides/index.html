@@ -4,6 +4,7 @@
     <title>Веб-технологии для быстрого запуска собственных проектов</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- Для локального просмотра -->
     <!-- <link
       rel="stylesheet"
@@ -11,12 +12,8 @@
     /> -->
     <!-- Для GHPages -->
     <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css" />
+
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .shower {
-        --slide-ratio: calc(16 / 9);
-      }
-    </style>
   </head>
   <body class="shower list">
     <header class="caption">
@@ -489,7 +486,7 @@
 
       <img
         style="border-radius: 10px; margin: 0 100px 30px 0"
-        src="images/ionic_qr.png"
+        src="images/rn_dev_qr.png"
         class="next place r b"
         height="175"
       />
@@ -507,18 +504,20 @@
     </section>
 
     <section class="slide black">
-      <img
-        style="border-radius: 10px; margin: 0 30px"
-        src="images/rn_kuper.jpeg"
-        class="place l"
-        height="375"
-      />
-      <img
-        style="border-radius: 10px; margin: 0"
-        src="images/rn_samokat.jpeg"
-        class="place"
-        height="375"
-      />
+      <div>
+        <img
+          style="border-radius: 10px; margin: 0 30px"
+          src="images/rn_kuper.jpeg"
+          class="place l"
+          height="375"
+        />
+        <img
+          style="border-radius: 10px; margin: 0"
+          src="images/rn_samokat.jpeg"
+          class="place"
+          height="375"
+        />
+      </div>
 
       <div class="zvuk-logo" />
     </section>
@@ -583,7 +582,7 @@
 
       <img
         style="border-radius: 10px; margin: 0 100px 30px 0"
-        src="images/ionic_qr.png"
+        src="images/electron_qr.png"
         class="next place r b"
         height="175"
       />
@@ -851,26 +850,6 @@
     </section>
 
     <!-- MINI APPS BLOCK -->
-    <section class="slide black">
-      <h2>Мини-приложения</h2>
-
-      <blockquote class="next">
-        <p>
-          Это веб-приложения, <mark>встроенные в приложение</mark> и работающие
-          внутри неё. Имеют доступ к API этого приложения и ОС.
-        </p>
-      </blockquote>
-
-      <ul class="next">
-        <li>VK Mini Apps</li>
-        <li>Telegram Mini Apps</li>
-        <li>Salute App</li>
-        <li>WeChat, Line и прочие</li>
-      </ul>
-
-      <div class="zvuk-logo" />
-    </section>
-
     <section class="slide black">
       <h2>Мини-приложения</h2>
 
@@ -1265,121 +1244,13 @@
       <div class="zvuk-logo" />
     </section>
 
-    <!-- <section class="slide black">
-      <h2>Кто я?</h2>
-      <a>Underline</a>
-      <b>Underline</b>
-      <strong>Underline</strong>
-      <p class="note">Note</p>
-      <blockquote>
-        <p>Flannel bicycle rights locavore selfies.</p>
-      </blockquote>
-
-      <ul class="triple">
-        <li>Occupy locavore blog</li>
-        <li>Mustache you haven’t heard of</li>
-        <li>Something else</li>
-      </ul>
-      <table class="striped">
-        <tr>
-          <th scope="col">Gentrify</th>
-          <th>Twee</th>
-        </tr>
-        <tr>
-          <th scope="row">Messenger</th>
-          <td>Mixtape</td>
-        </tr>
-      </table>
-    </section> -->
-
-    <!-- <section class="slide black">
-      <p>Retro meh brunch aesthetic.</p>
-
-      <footer class="footer">
-        <p>Cosby sweater Shoreditch.</p>
-      </footer>
-    </section>
-
-    <section class="slide black">
-      <img class="place top left" src="images/cr_memes1.png" />
-    </section>
-
-    <section class="slide black">
-      <h2 class="shout">Shout</h2>
-    </section> -->
-
-    <!-- <section class="slide black">
-      <h2 class="shout grow">Growing Shout</h2>
-    </section>
-
-    <section class="slide black">
-      <h2 class="shout shrink">Shrinking Shout</h2>
-    </section> -->
-
-    <!-- <section class="slide black">
-      <h2>Round spotlight</h2>
-      <div class="spotlight place"></div>
-    </section> -->
-
-    <!-- <section class="slide black">
-      <h2>Spotlight with inner navigation</h2>
-      <ol>
-        <li>I'll be seen right away.</li>
-        <li>Just navigate to next slide and you'll see others.</li>
-        <li class="next">Hey! It's all okay ?</li>
-        <li class="next">...</li>
-      </ol>
-      <div class="spotlight next"></div>
-    </section> -->
-
-    <!-- <section class="slide black">
-      <h2>Stripe spotlight</h2>
-      <style>
-        .stripe {
-          --spotlight-radius: 0;
-          --spotlight-opacity: 0.2;
-          --spotlight-width: 1024px;
-          --spotlight-height: 48px;
-        }
-        .stripe.line-4 {
-          --spotlight-top: 37px;
-        }
-      </style>
-      <div class="spotlight stripe line-4"></div>
-    </section> -->
-
-    <!-- <section class="slide black">
-      <h2>Spotlight with animation</h2>
-      <style>
-        @keyframes one-line {
-          0% {
-            height: 100%;
-          }
-          100% {
-            height: 50px;
-          }
-        }
-        .one-line {
-          animation-name: one-line;
-          animation-duration: 3s;
-          animation-delay: 2s;
-          --spotlight-radius: 0;
-          --spotlight-opacity: 0.2;
-          --spotlight-width: 1024px;
-          --spotlight-height: 48px;
-          --spotlight-top: 37px;
-        }
-      </style>
-      <div class="spotlight next one-line"></div>
-    </section> -->
-
-    <!-- <footer class="badge">
-  <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-</footer> -->
+    <footer class="badge">
+      <a href="https://github.com/shower/shower">Сделано в Shower</a>
+    </footer>
 
     <div class="progress"></div>
 
     <script src="node_modules/@shower/core/dist/shower.js"></script>
-    <!-- Copyright © 2024 Yours Truly, Famous Inc. -->
+    <!-- Copyright © 2024 Никита Любицкий, Звук -->
   </body>
 </html>
