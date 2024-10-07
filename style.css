@@ -9,6 +9,7 @@
 
 .shower {
   color: #fff;
+  --slide-ratio: calc(16 / 9);
 }
 
 .shower .list {
